@@ -14,7 +14,6 @@
     password: "{{ osda_password | default(ansible_user) }}"
     use_proxy: "{{ use_proxy | default('no') }}"
   register: task_list
-  no_log: True
 
 #- debug:
 #   msg: "{{ task_list }}"

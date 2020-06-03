@@ -1,18 +1,18 @@
 {
-  "taskName": "Gen10Deploy12",
+  "taskName": "DL380Deployment",
   "hosts": [
     {
-      "iloIPAddr": "",
-      "iloUser": "",
-      "iloPassword": "",
-      "hostName": "",
-      "ipAddr": "",
-      "netmask": "",
-      "gateway": "",
-      "dns1": "",
-      "dns2": "",
+      "iloIPAddr": "10.188.2.12",
+      "iloUser": "v0175usradmin",
+      "iloPassword": "HP!nvent123",
+      "hostName": "host55",
+      "ipAddr": "10.188.175.55",
+      "netmask": "255.255.255.0",
+      "gateway": "10.188.175.1",
+      "dns1": "10.188.0.2",
+      "dns2": "10.188.0.3",
       "bootProto": "static",
-      "osPackage": "",
+      "osPackage": "VMware-ESXi67",
       "mgmtNIC": {
         "adapterId": "1",
         "portId": 1
@@ -20,7 +20,7 @@
       "osDrive": {
         "logicalDrive": {
           "driveTechnology": "SAS HDD",
-          "capacity": "1000",
+          "capacity": "100",
           "capacityUnit": "GB",
           "raidLevel": "Raid1",
           "operation": "DELETE_ALL_AND_CREATE"
@@ -28,7 +28,7 @@
       }
     }
   ],
-  "osPackage": "",
+  "osPackage": "VMware-ESXi67",
   "deploymentMode": "hpeilo",
   "oneviewDetails": {}
 }

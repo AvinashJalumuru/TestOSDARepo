@@ -1,7 +1,7 @@
 - hosts: all
   connection: local
   environment:
-    no_proxy: "{{ no_proxy | osda_ip_address }}"
+    no_proxy: "{{ no_proxy | default(osda_ip_address) }}"
 
   tasks:
   - import_tasks: validate_input.yml

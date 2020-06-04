@@ -20,7 +20,7 @@
       "osDrive": {
         "logicalDrive": {
           "driveTechnology": "SAS HDD",
-          "capacity": "100",
+          "capacity": "1000",
           "capacityUnit": "GB",
           "raidLevel": "Raid1",
           "operation": "DELETE_ALL_AND_CREATE"
